@@ -27,18 +27,24 @@ Project Input ('sql-challenge/data'):
 <ul>
     <li>Departments: departments.csv</li>
     <li>Department / Employee Link: dept_emp.csv</li>
-    <li>Department / Manager Link: dept_manager.csv<li>
+    <li>Department / Manager Link: dept_manager.csv</li>
     <li>Employees: employees.csv</li>
     <li>Employee Salaries: salaries.csv</li>
-    <li>Employee Titles: titles.csv
+    <li>Employee Titles: titles.csv</li>
 </ul>
 
 <h3>Execution Steps</h3>
 <ol>
     <li>Utilizing pgAdmin, create database for this exercise ('challenge9_db').</li>
-    <li>Utilizing the Query
+    <li>Utilizing the QueryTool, open the employee_schema.sql and execute the script.
+    <li>To load the data, you have 2 options:
+        <ul>
+            <li>Import the .csv files into their respective tables utilizing the
+                import function within pgAdmin.</li>
+            <li>Edit the data_load.sql file with the explicit path to the local.repository. Then, via QueryTool, execute the script.</li>
+        </ul></li>
+    <li>Open the queries.sql file in QueryTool, and execute each script independently to review the results.</li>
 </ol>
-
 
 <h3>Project Assignment</h3>
 
